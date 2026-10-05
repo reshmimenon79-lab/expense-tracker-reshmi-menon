@@ -1,21 +1,24 @@
-# Expense Tracker
+# Expense Tracker Application
 
-A simple, fully responsive Expense Tracker web application built using HTML, CSS, and JavaScript. This project allows users to seamlessly manage their personal finances by tracking daily income and expenses.
+A simple, fully responsive Expense Tracker web application built using HTML, CSS, and JavaScript. This project allows users to seamlessly manage their personal finances by tracking daily income and expenses. 
 
-## Features
-* **Transaction Management:** Add, edit, and delete income or expense transactions.
-* **Real-Time Calculations:** Automatically updates Total Income, Total Expenses, and Balance.
-* **Filtering:** View all transactions or filter specifically by Income, Expense, or Category.
-* **Persistent Storage:** Uses browser Local Storage to save all data, ensuring transactions are not lost when the page is refreshed.
-* **Responsive Design:** Optimized for both desktop and mobile screens using CSS Flexbox, Grid, and Media Queries.
+## Features Completed
+* Add an income or expense transaction (Amount, Category, Date, Description).
+* View total income, total expenses, and current balance calculations in real-time.
+* Edit existing transactions to update their details.
+* Delete transactions from the list.
+* Filter the transaction list by Income, Expense, or specific Categories.
+* Persistent data storage using the browser's Local Storage (data remains after page refresh).
+* Fully responsive layout that adapts to both desktop and mobile screens.
+
+## Technologies Used
+* HTML5
+* CSS3 (Flexbox, CSS Grid, Media Queries)
+* Vanilla JavaScript (ES6)
 
 ## How to Run the Application
-
-### Option 1: Live Demo (Mobile & Desktop)
-You can view and test the application directly in your browser on any device (including mobile phones) by clicking the live link below:
-* [Insert your GitHub Pages link here once you generate it]
-
-### Option 2: Run Locally
-1. Clone or download this repository to your local machine.
-2. Extract the folder if you downloaded it as a ZIP file.
-3. Simply double-click the `index.html` file to open it in your default web browser. No local server installation is required.
+1. Clone or download this repository to your local computer.
+2. Extract the ZIP folder if downloaded.
+3. Locate the `index.html` file inside the folder.
+4. Double-click `index.html` to open it directly in any modern web browser (Chrome, Edge, Firefox, Safari).
+5. No local server installation or external dependencies are required to run this application.
